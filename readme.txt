@@ -25,7 +25,10 @@ There are two options you can use to make taxonomy sortable:
 `
 register_taxonomy( 'your-taxonomy-name', 'your-post-type', array(
 	'label' => __('Category'),
-	'i_order_terms' => true, // this parameter is used to enable sorting for taxonomy 'your-taxonomy-name'
+
+	// this parameter is used to enable
+	// sorting for taxonomy 'your-taxonomy-name'
+	'i_order_terms' => true,
 ));
 `
 
@@ -35,7 +38,7 @@ register_taxonomy( 'your-taxonomy-name', 'your-post-type', array(
 function custom_i_order_terms_taxonomies() {
 	return array('your-taxonomy-name', 'category');
 }
-add_filter( 'i_order_terms_taxonomies', 'custom_i_order_terms_taxonomies' );
+add_filter('i_order_terms_taxonomies', 'custom_i_order_terms_taxonomies');
 `
 
 This will enable taxonomy sorting for 'your-taxonomy-name' and 'category' taxonomies.
@@ -73,7 +76,10 @@ There are two options you can use to make taxonomy sortable:
 `
 register_taxonomy( 'your-taxonomy-name', 'your-post-type', array(
 	'label' => __('Category'),
-	'i_order_terms' => true, // this parameter is used to enable sorting for taxonomy 'your-taxonomy-name'
+
+	// this parameter is used to enable
+	// sorting for taxonomy 'your-taxonomy-name'
+	'i_order_terms' => true,
 ));
 `
 
@@ -83,7 +89,7 @@ register_taxonomy( 'your-taxonomy-name', 'your-post-type', array(
 function custom_i_order_terms_taxonomies() {
 	return array('your-taxonomy-name', 'category');
 }
-add_filter( 'i_order_terms_taxonomies', 'custom_i_order_terms_taxonomies' );
+add_filter('i_order_terms_taxonomies', 'custom_i_order_terms_taxonomies');
 `
 
 This will enable taxonomy sorting for 'your-taxonomy-name' and 'category' taxonomies.
