@@ -3,7 +3,7 @@ Contributors: x64igor
 Tags: sort, order, terms, taxonomy
 Requires at least: 3.5
 Tested up to: 3.8
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -81,14 +81,20 @@ Please make sure to include plugin version when reporting bugs.
 2. Options section where you can select which taxonomy should be sortable.
 
 == Changelog ==
+= 1.2.0 =
+* Added link to options on plugins page
+* Settings page completely rewritten to use WordPress Settings API
+* Drag & drop can now be done in different levels i.e. you can now change parent of dragged item
 = 1.1.0 =
-* Added option page for plugin
+* Added settings page for plugin
 * Removed limitation of accepting only one taxonomy when using functions like get_categories and get_terms
 = 1.0.0 =
 * Initial release
 
 == Upgrade Notice ==
+= 1.2.0 =
+* Settings page rewritten and drag & drop now able to change parent of dragged item
 = 1.1.0 =
-* Added option page for plugin
+* Added settings page for plugin
 = 1.0.0 =
 * Initial release
